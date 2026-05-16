@@ -1,4 +1,4 @@
-![InnoDB Database Converter](assets/banner-1544x500.png)
+![InnoDB Table Converter](assets/banner-1544x500.png)
 # 🛠 InnoDB Table Converter
 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue)
