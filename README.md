@@ -1,4 +1,4 @@
-![InnoDB Table Converter](assets/banner-1544x500.png)
+![LightMoving InnoDB Converter](assets/banner-1544x500.png)
 # 🛠 InnoDB Table Converter
 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue)
@@ -11,7 +11,7 @@ Safely scan and bulk convert WordPress database tables from legacy storage engin
 
 ## 🔍 Overview
 
-InnoDB Table Converter helps modernize older WordPress databases that still contain tables using MyISAM or other legacy storage engines.
+LightMoving InnoDB Converter helps modernize older WordPress databases that still contain tables using MyISAM or other legacy storage engines.
 
 The plugin scans your WordPress database tables, identifies tables needing conversion, and provides a safe administrator-controlled bulk conversion workflow.
 
