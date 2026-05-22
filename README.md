@@ -1,5 +1,5 @@
 ![LightMoving InnoDB Converter](assets/banner-1544x500.png)
-# 🛠 InnoDB Table Converter
+# 🛠 LightMoving InnoDB Converter
 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue)
 ![WordPress](https://img.shields.io/badge/WordPress-7.0%2B-blue)
