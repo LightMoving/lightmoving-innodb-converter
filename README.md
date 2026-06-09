@@ -111,6 +111,14 @@ Clean logging and confirmation after selected tables are converted.
 
 ## 📜 Changelog
 
+### 1.0.2 
+
+* Updated text domain to match the plugin slug (`innodb-table-converter`).
+* Improved internationalization compliance for WordPress.org.
+* Updated plugin metadata and packaging.
+* Removed development and packaging artifacts.
+* General cleanup and stability improvements.
+
 ### 1.0.1
 - Improved WordPress.org release packaging
 - Confirmed contributor metadata
