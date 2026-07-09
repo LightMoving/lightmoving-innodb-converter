@@ -1,8 +1,8 @@
 ![LightMoving InnoDB Converter](assets/banner-1544x500.png)
 # 🛠 LightMoving InnoDB Converter
 
-![Version](https://img.shields.io/badge/version-1.0.1-blue)
-![WordPress](https://img.shields.io/badge/WordPress-7.0%2B-blue)
+![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![WordPress](https://img.shields.io/badge/WordPress-7.0.1%2B-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
 Safely scan and bulk convert WordPress database tables from legacy storage engines such as MyISAM to InnoDB.
@@ -111,6 +111,10 @@ Clean logging and confirmation after selected tables are converted.
 
 ## 📜 Changelog
 
+### 1.0.3 
+
+* Updated for WordPress 7.0.1
+  
 ### 1.0.2 
 
 * Updated text domain to match the plugin slug (`innodb-table-converter`).
