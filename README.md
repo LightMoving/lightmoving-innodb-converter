@@ -66,8 +66,11 @@ ALTER TABLE wp_posts ENGINE=InnoDB;
 
 ## 📜 Changelog
 
-### 1.0.10 
+### 1.0.12
 
+- Release version 1.0.12
+
+### 1.0.10 
 
 - Updated Version for WordPress 7.1
 
@@ -103,8 +106,6 @@ ALTER TABLE wp_posts ENGINE=InnoDB;
 GPL v2 or later
 
 
-## Changelog
 
-### 1.0.12
 
-Release version 1.0.12
+
