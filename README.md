@@ -2,7 +2,7 @@
 
 # 🛠 LightMoving InnoDB Converter
 
-![Version](https://img.shields.io/badge/version-1.0.10-blue)
+![Version](https://img.shields.io/badge/version-1.0.12-blue)
 ![WordPress](https://img.shields.io/badge/WordPress-7.1%2b-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
@@ -103,12 +103,8 @@ ALTER TABLE wp_posts ENGINE=InnoDB;
 GPL v2 or later
 
 
-<!-- publisher:release:start -->
-**Current Version:** 1.0.10
+## Changelog
 
-### 1.0.10
+### 1.0.12
 
-Publisher Payload: `5b333ae036c71dc8…`
-
-Release packaged and verified with WordPress Plugin Publisher.
-<!-- publisher:release:end -->
+Release version 1.0.12

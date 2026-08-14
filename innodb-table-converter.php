@@ -3,7 +3,7 @@
  * Plugin Name: LightMoving InnoDB Converter
  * Plugin URI: https://github.com/LightMoving/innodb-table-converter
  * Description: Safely scan and bulk convert WordPress database tables to the InnoDB storage engine.
- * Version: 1.0.10
+ * Version: 1.0.12
  * Author: Debo Grim
  * Author URI: https://github.com/LightMoving
  * License: GPLv2 or later
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 }
 
 class InnoDB_Table_Converter {
-    const VERSION = '1.0.10';
+    const VERSION = '1.0.12';
     const PAGE_SLUG = 'innodb-table-converter';
     const NONCE_ACTION = 'innodb_table_converter_action';
     const TARGET_ENGINE = 'InnoDB';
