@@ -1,8 +1,7 @@
-![LightMoving InnoDB Converter](assets/banner-1544x500.png)
 # 🛠 LightMoving InnoDB Converter
 
-![Version](https://img.shields.io/badge/version-1.0.6-blue)
-![WordPress](https://img.shields.io/badge/WordPress-7.0.2%2B-blue)
+![Version](https://img.shields.io/badge/version-1.0.10)
+![WordPress](https://img.shields.io/badge/WordPress-7.1-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
 
 Safely scan and bulk convert WordPress database tables from legacy storage engines such as MyISAM to InnoDB.
@@ -29,32 +28,12 @@ The plugin scans your WordPress database tables, identifies tables needing conve
 - Responsive modern admin interface
 - No automatic conversion on activation
 - Direct Tools link from Plugins page
-- Translation-ready POT language template
-
----
-
-## 🖥 Designed For
-
-This utility is especially useful for:
-
-- older WordPress websites
-- migrated hosting environments
-- legacy MyISAM tables
-- database modernization
-- WordPress Site Health recommendations
-- Themify and older builder installs
 
 ---
 
 ## 🔒 Safety First
 
-The plugin intentionally requires:
-
-- administrator access
-- backup confirmation
-- manual CONVERT confirmation
-
-No database conversion occurs automatically on activation.
+The plugin requires administrator access, backup confirmation, and manual CONVERT confirmation. No database conversion occurs automatically on activation.
 
 ---
 
@@ -62,12 +41,7 @@ No database conversion occurs automatically on activation.
 
 1. Upload the plugin to `/wp-content/plugins/`
 2. Activate the plugin
-3. Go to:
-
-```txt
-Tools → InnoDB Converter
-```
-
+3. Go to `Tools → InnoDB Converter`
 4. Review your table engine status
 5. Create a complete database backup
 6. Run the selected-table conversion workflow
@@ -76,15 +50,7 @@ Tools → InnoDB Converter
 
 ## 🔄 Conversion Workflow
 
-The plugin:
-
-1. Scans WordPress tables using the active prefix
-2. Identifies tables not using InnoDB
-3. Shows engine, row count, and table size
-4. Allows table selection/deselection
-5. Requires administrator confirmation
-6. Converts selected tables to InnoDB
-7. Displays a clean conversion summary log
+The plugin scans WordPress tables using the active prefix, identifies tables not using InnoDB, allows selection/deselection, converts selected tables, and displays a clean conversion summary log.
 
 ---
 
@@ -96,48 +62,33 @@ ALTER TABLE wp_posts ENGINE=InnoDB;
 
 ---
 
-## 📸 Screenshots
-
-### Table Engine Scan
-Review table names, current storage engines, row counts, and estimated table size.
-
-### Safe Conversion Workflow
-Backup confirmation and manual CONVERT verification before conversion.
-
-### Conversion Success Summary
-Clean logging and confirmation after selected tables are converted.
-
----
-
 ## 📜 Changelog
 
+### 1.0.10 
+
+
+- Updated Version for WordPress 7.1
+
+### 1.0.7
+- Updated for Wordpress 7.1
+
 ### 1.0.6
-* Versioning for 7.0.2
+- Versioning for 7.0.2
 
 ### 1.0.5
-* Updated POT
+- Updated POT
 
 ### 1.0.4
-* Updated WordPress packaging
+- Updated Wordpress packaging
 
-### 1.0.3 
-* Updated for WordPress 7.0.1
-  
-### 1.0.2 
-* Updated text domain to match the plugin slug (`innodb-table-converter`).
-* Improved internationalization compliance for WordPress.org.
-* Updated plugin metadata and packaging.
-* Removed development and packaging artifacts.
-* General cleanup and stability improvements.
+### 1.0.3
+- Updated plugin packaging for WordPress 7.1
+
+### 1.0.2
+- Updated internationalization text domain to match the WordPress.org plugin slug.
+- Updated plugin packaging folder to innodb-table-converter.
 
 ### 1.0.1
-- Improved WordPress.org release packaging
-- Confirmed contributor metadata
-- Improved README.md documentation
-- Added fuller translation-ready POT language template
-- Confirmed Plugin Check-friendly database operation documentation
-
-### 1.0.0
 - Initial release
 - WordPress table engine scanning
 - Selected-table InnoDB conversion workflow
@@ -148,3 +99,14 @@ Clean logging and confirmation after selected tables are converted.
 ## ⚖ License
 
 GPL v2 or later
+
+
+<!-- publisher:release:start -->
+**Current Version:** 1.0.10
+
+### 1.0.10
+
+Publisher Payload: `5b333ae036c71dc8…`
+
+Release packaged and verified with WordPress Plugin Publisher.
+<!-- publisher:release:end -->
