@@ -1,4 +1,4 @@
-[LightMoving-Innodb-Converter](assets/banner-1544x500.png)
+![LightMoving Innodb Converter](assets/banner-1544x500.png)
 
 # 🛠 LightMoving InnoDB Converter
 
