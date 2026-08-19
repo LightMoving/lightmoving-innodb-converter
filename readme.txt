@@ -4,7 +4,7 @@ Tags: database, innodb, myisam, tables, performance
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.13
+Stable tag: 1.0.14
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ Yes. Always create a complete database backup before running database conversion
 
 
 
+
+= 1.0.14 =
+* Improvements and Compatibility
 
 
 = 1.0.13 =
