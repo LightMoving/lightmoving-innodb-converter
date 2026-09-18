@@ -67,13 +67,13 @@ ALTER TABLE wp_posts ENGINE=InnoDB;
 ## 📜 Changelog
 ### 1.0.15
 
-Release v1.0.15
+- Release v1.0.15
 ### 1.0.14
 
-Release version 1.0.14
+- Release version 1.0.14
 ### 1.0.13
 
-Upgrade: Responsiveness & Compatibility
+- Upgrade: Responsiveness & Compatibility
 ### 1.0.12
 
 - Release version 1.0.12
